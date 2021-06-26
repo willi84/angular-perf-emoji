@@ -1,0 +1,140 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>TodoList</title><base href="./"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="./styles.bundle.css" rel="stylesheet"/></head><body><todo-root></todo-root>
+
+    <script type="text/javascript">var xhr = new XMLHttpRequest();
+xhr.open('GET', './boost.min.js');
+xhr.onload = function() {
+    if (xhr.status === 200) {
+        var d = new Date();
+        var startTime = new Date().getTime();
+        var myString = xhr.responseText; //"❤ x(){ ❤ y(){};  console.log('\u2764'); } x()";
+//        myString = myString.replace(/☁/ig, "return");
+
+myString = myString.replace(/♥1/g, "function ");
+myString = myString.replace(/♥2/g, "function()");
+myString = myString.replace(/♥3/g,"\",function(){☁ ");
+myString = myString.replace(/♥4/g, "=function(){");
+myString = myString.replace(/♥/g, "function");
+myString = myString.replace(/☀/g, "this");
+myString = myString.replace(/☁/g, "return");
+myString = myString.replace(/☂1/g, "{var ");
+myString = myString.replace(/☂/g, "var "); // ☂\s
+myString = myString.replace(/☃/g, "prototype");
+myString = myString.replace(/☄/g, "null");
+myString = myString.replace(/★/g, "new");
+myString = myString.replace(/☆/g, "for");
+myString = myString.replace(/☇/g, "length");
+myString = myString.replace(/☈/g, "Object");
+myString = myString.replace(/☉/g, "void");
+myString = myString.replace(/☊/g, "get");
+myString = myString.replace(/☋/g, "case");
+myString = myString.replace(/☌/g, "typeof");
+myString = myString.replace(/☍/g, "throw");
+myString = myString.replace(/☎/g, "flags");
+myString = myString.replace(/☏/g, "call");  //
+myString = myString.replace(/☐/g, "parent");
+myString = myString.replace(/☑/g, "arguments");
+myString = myString.replace(/☒/g, "Error");
+myString = myString.replace(/☓/g, "next");
+myString = myString.replace(/☔/g, "apply");
+myString = myString.replace(/☕/g, "value");
+myString = myString.replace(/☖/g, "zone");
+myString = myString.replace(/☗/g, "exports");
+myString = myString.replace(/☘/g, "configurable");
+myString = myString.replace(/☙/g, "nodeIndex");
+myString = myString.replace(/☚/g, "defineProperty");
+myString = myString.replace(/☛/g, "push");
+myString = myString.replace(/☜/g, "def");
+myString = myString.replace(/☝/g, " instanceof ");
+myString = myString.replace(/☞/g, "try");
+myString = myString.replace(/☟/g, "enumerable");
+myString = myString.replace(/☠/g, "else ");
+myString = myString.replace(/☡/g, "Zone");
+myString = myString.replace(/☢/g, "name");
+myString = myString.replace(/☣/g, "nodes");
+myString = myString.replace(/☤/g, "delegate");
+myString = myString.replace(/☥/g, "catch");
+myString = myString.replace(/☦/g, "error");
+myString = myString.replace(/☧/g, "break");
+myString = myString.replace(/☨/g, "window");
+myString = myString.replace(/☩/g, "state");
+myString = myString.replace(/☪/g, "set");
+myString = myString.replace(/☫/g, "Each");
+myString = myString.replace(/☬/g, "element");
+myString = myString.replace(/☭/g, "Array");
+myString = myString.replace(/☮/g, "unsubscribe");
+myString = myString.replace(/☯/g, "create");
+myString = myString.replace(/☰/g, "complete");
+myString = myString.replace(/☱/g, "view");
+myString = myString.replace(/☲/g, "toString");
+myString = myString.replace(/☳/g, "subscribe");
+myString = myString.replace(/☴/g, "Promise");
+myString = myString.replace(/☵/g, "data");
+myString = myString.replace(/☶/g, "childCount");
+myString = myString.replace(/☷/g, "switch");
+myString = myString.replace(/☸/g, "object");
+myString = myString.replace(/☹/g, "injector");
+myString = myString.replace(/☺/g, "token");
+myString = myString.replace(/☻/g, "zr.");
+//myString = myString.replace(/☼/g, "e.☗=♥");
+myString = myString.replace(/☽/g, "☼(e)");
+myString = myString.replace(/☾/g, "===");
+myString = myString.replace(/☿/g, "==");
+//myString = myString.replace(/♀/g, "&&");
+//myString = myString.replace(/´/g, "&&");
+myString = myString.replace(/♁/g, "appendChild");
+myString = myString.replace(/♂/g, "");
+myString = myString.replace(/♃/g, "");
+myString = myString.replace(/♄/g, "");
+myString = myString.replace(/♅/g, "");
+myString = myString.replace(/♆/g, "");
+myString = myString.replace(/♇/g, "");
+myString = myString.replace(/♔/g, "");
+myString = myString.replace(/♕/g, "");
+myString = myString.replace(/♖/g, "");
+myString = myString.replace(/♗/g, "");
+myString = myString.replace(/♘/g, "");
+myString = myString.replace(/♙/g, "");
+myString = myString.replace(/♚/g, "");
+myString = myString.replace(/♛/g, "");
+myString = myString.replace(/♜/g, "");
+myString = myString.replace(/♝/g, "");
+myString = myString.replace(/♞/g, "");
+myString = myString.replace(/♟/g, "");
+myString = myString.replace(/♠/g, "");
+myString = myString.replace(/♡/g, "");
+myString = myString.replace(/♢/g, "");
+myString = myString.replace(/♣/g, "");
+myString = myString.replace(/♤/g, "");
+myString = myString.replace(/♦/g, "");
+myString = myString.replace(/♧/g, "");
+myString = myString.replace(/♨/g, "");
+myString = myString.replace(/♩/g, "");
+myString = myString.replace(/♪/g, "");
+myString = myString.replace(/♫/g, "");
+myString = myString.replace(/♬/g, "");
+myString = myString.replace(/♭/g, "");
+myString = myString.replace(/♮/g, "");
+myString = myString.replace(/♯/g, "");
+myString = myString.replace(/♰/g, "");
+myString = myString.replace(/♱/g, "");
+console.log(startTime - new Date().getTime() )
+
+//☆\(☂
+//  ♥\s
+//  ♥\(\)
+// e.☗=♥
+// =♥\(e\)\{☂ t;☆\(t=☀\._
+//\(e,t\)
+
+        //console.log(myString)
+        eval(myString) // + myString);
+        console.log(startTime - new Date().getTime() )
+       // myString = myString.replace('❤', "function");
+    }
+    else {
+        alert('Request failed.  Returned status of ' + xhr.status);
+    }
+};
+xhr.send();</script>
+
+</body></html>
